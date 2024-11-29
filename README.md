@@ -2,7 +2,7 @@
 
 Diatom is a very simple data serialization language, it tries to be human readable and gets rid of a lot of useless punctuation.
 
-> This spec is a newer version of Diatom, design to be more "general use" than the older format
+> This spec is a newer version of Diatom, designed to be more "general use" than the older format
 
 A simple Diatom file is very similar to JSON, but commas and colons are not required, they are just cosmetics used for readability.
 
@@ -25,7 +25,7 @@ menu {
 Diatom has 5 value types:
 
 - Number: integers `-1 42` and decimals `3.14 -1.44`
-- String: normal strings `"Hello, world"` can use escape sequences like `\n` `\t` etc.; raw strings `Hello, world` don't
+- String: normal strings `"Hello, world"` can use escape sequences like `\n` `\t` etc.; raw strings <code>\`Hello, world\`</code> cannot
 - Symbol: an identifier made of alphanumerics and the symbols `_-/?!*`, must start with a letter
 - Array: a list of values `[ 1 2 "hi" no-commas ]` 
 - Map: a mapping of identifiers to values `{ name "Diatom", amount 14, is-boxed? no }`
