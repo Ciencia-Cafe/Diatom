@@ -1,5 +1,7 @@
 # Diatom
 
+> Subject to change
+
 Diatom is a very simple data serialization language, it tries to be human readable and gets rid of a lot of useless punctuation.
 
 > This spec is a newer version of Diatom, designed to be more "general use" than the older format
